@@ -1,0 +1,105 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Uni\\SPP\\Lab2\\TestPart\\TestPart\\TestPart.csproj": {}
+  },
+  "projects": {
+    "D:\\Uni\\SPP\\Lab2\\Faker\\Faker\\Faker.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\SPP\\Lab2\\Faker\\Faker\\Faker.csproj",
+        "projectName": "Faker",
+        "projectPath": "D:\\Uni\\SPP\\Lab2\\Faker\\Faker\\Faker.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\Uni\\SPP\\Lab2\\TestPart\\TestPart\\TestPart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\SPP\\Lab2\\TestPart\\TestPart\\TestPart.csproj",
+        "projectName": "TestPart",
+        "projectPath": "D:\\Uni\\SPP\\Lab2\\TestPart\\TestPart\\TestPart.csproj",
+        "packagesPath": "C:\\Users\\NeroHaaki\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\SPP\\Lab2\\TestPart\\TestPart\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NeroHaaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Uni\\SPP\\Lab2\\Faker\\Faker\\Faker.csproj": {
+                "projectPath": "D:\\Uni\\SPP\\Lab2\\Faker\\Faker\\Faker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
